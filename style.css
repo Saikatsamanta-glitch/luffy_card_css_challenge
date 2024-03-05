@@ -1,0 +1,56 @@
+/* Interview : challeges of creating small designs */
+
+/* 
+Most important Topics of CSS
+1. background : color, image, filter, sizes and repeat
+             : fit, cover and contain
+2. box-model : margin {outside}, border {on it}, padding {inside}
+3. box-sizing : border-box {removes height and width added due to padding}
+            : content-box {adds height and width added due to padding} 
+4. flex : display flex
+        : justify-content : x- direction
+        : align-items : y- direction
+5. positions: absolute, relative, static, fixed and sticky    
+                absolute vs relative
+                absolute : depends upon parent element ---> relative and static
+                ---> forget its position
+                relative : depends its previous location, without forgetting it
+ */
+
+*{
+    margin: 0;
+    padding: 0; /*default margin and padding*/
+}
+
+body{
+    height: 100vh;
+}
+
+.container{
+    height: 350px;
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box{
+    height: 230px;
+    width: 400px;
+    background: white;
+    border-radius: 7px;
+}
+.box1{
+    background: orangered;
+}
+.box2{
+    background: cyan;
+    position: relative;
+    left: 50px;
+    top: 50px;
+    
+}
+.box3{
+    background: greenyellow;
+}
+
+/* how do you center a element which is in absolute */

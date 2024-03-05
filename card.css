@@ -1,0 +1,95 @@
+* {
+    /* box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(345deg, #FF9DAA, #EB68F4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: white;
+    border-radius: 12px;
+    height: 650px;
+    width: 400px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.301);
+    overflow: hidden;
+}
+
+.top {
+    height: 30%;
+    background-image: url('https://images.vexels.com/media/users/3/148177/isolated/preview/ee0d01a2796059e8298032a7442810b9-abstract-colorful-square-background.png');
+    background-size: cover;
+    position: relative;
+}
+
+.bottom {
+    height: 70%;
+    padding: 40px;
+    padding-top: 80px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.role,
+.followers p,
+.following p {
+    color: grey;
+}
+
+.followers h1,
+.following h1 {
+    color: aquamarine;
+}
+
+.flex {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.follow_btn {
+    margin-top: 30px;
+    height: 50px;
+    width: 100%;
+    border-radius: 13px;
+    background: #FED01A;
+    color: rgb(85, 85, 85);
+    font-size: 28px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+.desc {
+    margin-top: 30px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.profile_img{
+    height: 150px;
+    width: 150px;
+    background: #ffffff;
+    background-image: url('https://png.pngtree.com/png-clipart/20220117/original/pngtree-luffy-big-head-image-element-png-image_7146275.png');
+    background-size: contain;
+    border-radius:50% ;
+    box-shadow: 0px 0px 30px rgb(123, 123, 123);
+    position: absolute;
+    bottom: -75px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.profile_img:hover{
+    
+}
